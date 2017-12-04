@@ -1,0 +1,15 @@
+<view class="container">
+    <view class="list">
+        <block wx:for="{{images}}" wx:key="image">
+            <image data-id="{{item}}" style="{{imageStyleData[item]}}" bindload="imageLoad" src="{{item}}"/>
+        </block>
+    </view>
+    <view class="bottom">
+        <view class="counter">
+
+        </view>
+        <view class="navigator">
+
+        </view>
+    </view>
+</view>

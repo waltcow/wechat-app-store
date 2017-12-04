@@ -1,0 +1,34 @@
+.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.bottom {
+    position: fixed;
+    background-color: rgba(40,40,40,0.9);
+    height: 96px;
+    width: 100%;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.counter {
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+}
+
+.navigator {
+    display: flex;
+    height: 36px;
+    flex-direction: row;
+    background-color: rgba(2,2,2,0.9);
+}
