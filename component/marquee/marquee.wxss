@@ -1,0 +1,28 @@
+@keyframes kf-marque-animation{ 0% { transform: translateY(0); } 100% { transform: translateY(-20%); } }
+.marquee{
+    text-align: center;
+    width: 92%;
+    height: 60px;
+    font-size: 12px;
+    line-height: 1.8em;
+    padding: 10px 4%;
+    background: #EFEFEF;
+    border: none;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+    position: relative;
+}
+.marquee .content{
+    display: inline-block;
+    position: relative;
+    padding-right: 0px;
+    animation: kf-marque-animation 30s linear infinite;
+    white-space: nowrap;
+}
+
+.marquee .phone {
+    color: #0C3;
+    margin-right: 12px;
+}

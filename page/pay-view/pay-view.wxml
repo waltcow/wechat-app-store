@@ -1,0 +1,39 @@
+<view class="container">
+    <view class="head-title">
+        <image class="arrow-down-icon" src="../../image/icon-title.png" />
+        <text class="head-title-text">交易结果</text>
+    </view>
+    <view class="order-result">
+        <icon class="order-success-icon" type="success" size="34" color="#76b72d"/>
+        <text class="order-success-text">订单成功</text>
+    </view>
+    <view class="order-price">
+        <text class="order-price-text">¥198.00</text>
+    </view>
+    <view class="order-details">
+        <view class="order-detail-item">
+            <text>商品名称：轻奢印花单肩手提包</text>
+        </view>
+        <view class="order-detail-item">
+            <text>订单状态：订单成功</text>
+        </view>
+        <view class="order-detail-item">
+            <text>付款方式：货到付款</text>
+        </view>
+        <view class="order-detail-item">
+            <text>订单时间：2017-12-04 09:40:12</text>
+        </view>
+        <view class="order-detail-item">
+            <text>温馨提示：订单将在48小时内发货，如有疑问，请关注我们的官方微信公众号：匠品优购咨询客服，或致电:4006665615，我们将竭诚为您服务。</text>
+        </view>
+    </view>
+    <view class="qrcode">
+        <image src="../../image/qrcode.jpg" class="qrcode-image"></image>
+        <view class="wechat-text">
+            <text>微信公众号: xxx旗舰店</text>
+        </view>
+        <view>
+            <text>扫一扫，即可查询订单快递信息，或咨询客服</text>
+        </view>
+    </view>
+</view>

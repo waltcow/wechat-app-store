@@ -1,0 +1,254 @@
+<view class="marquee">
+    <view class="content">
+        <view>
+            <text class="phone">王**(138****2384)</text>
+            <text>在17分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">李**(150****9209)</text>
+            <text>在1004分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">郭**(138****6976)</text>
+            <text>在1002分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">陈**(177****4729)</text>
+            <text>在1001分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">孙**(139****7505)</text>
+            <text>在964分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">吴**(152****3306)</text>
+            <text>在953分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">李**(187****2933)</text>
+            <text>在900分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">赵**(180****4867)</text>
+            <text>在861分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">韩**(139****2832)</text>
+            <text>在745分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">朱**(159****9712)</text>
+            <text>在733分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">卢**(133****9458)</text>
+            <text>在733分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">宋**(133****5562)</text>
+            <text>在728分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">胡**(135****0789)</text>
+            <text>在723分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">万**(138****5669)</text>
+            <text>在718分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">何**(133****4446)</text>
+            <text>在718分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">杜**(152****8000)</text>
+            <text>在718分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">谢**(153****8969)</text>
+            <text>在714分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">王**(131****3337)</text>
+            <text>在711分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">刘**(131****7389)</text>
+            <text>在710分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">袁**(186****0997)</text>
+            <text>在704分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">高**(158****0001)</text>
+            <text>在691分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">韦**(138****1517)</text>
+            <text>在679分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">王**(139****3802)</text>
+            <text>在677分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">余**(139****7510)</text>
+            <text>在676分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">杨**(155****8082)</text>
+            <text>在673分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">张**(137****9560)</text>
+            <text>在664分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">杨**(188****4634)</text>
+            <text>在647分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">刘**(135****9866)</text>
+            <text>在610分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">赵**(159****2001)</text>
+            <text>在561分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">曹**(159****6992)</text>
+            <text>在549分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">黄**(136****4516)</text>
+            <text>在545分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">李**(132****5999)</text>
+            <text>在515分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">窦**(131****0866)</text>
+            <text>在508分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">頡**(138****8893)</text>
+            <text>在479分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">王**(133****6977)</text>
+            <text>在445分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">孙**(158****5365)</text>
+            <text>在437分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">徐**(135****6232)</text>
+            <text>在436分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">刘**(138****0116)</text>
+            <text>在426分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">刘**(139****5250)</text>
+            <text>在399分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">李**(150****7463)</text>
+            <text>在399分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">颜**(133****3887)</text>
+            <text>在389分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">闻**(130****6810)</text>
+            <text>在388分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">张**(136****5056)</text>
+            <text>在386分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">王**(156****9817)</text>
+            <text>在384分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">何**(135****4567)</text>
+            <text>在381分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">罗**(138****4472)</text>
+            <text>在365分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">王**(158****0137)</text>
+            <text>在351分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">余**(139****9255)</text>
+            <text>在343分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">余**(139****9255)</text>
+            <text>在340分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+        <view>
+            <text class="phone">孔**(138****1032)</text>
+            <text>在338分前订购了轻奢印花单肩手提包</text>
+            <icon style="margin-left: 5px" type="success_no_circle" color="#FF0000" size="14"></icon>
+        </view>
+    </view>
+</view>

@@ -1,6 +1,7 @@
 {
   "pages": [
-    "page/index-view/index-view"
+    "page/index-view/index-view",
+    "page/pay-view/pay-view"
   ],
   "window": {
     "navigationBarTextStyle": "black",

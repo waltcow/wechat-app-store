@@ -1,15 +1,209 @@
+<import src="../../component/citySelect/citySelect.wxml" />
+
 <view class="container">
-    <view class="list">
+    <scroll-view class="list" scroll-y="true" scroll-into-view="{{toView}}">
+        <view id="top" class="top">
+            <view class="title" style="top: {{titleTop}}">
+                <view class="title-top">
+                    <text>已有</text>
+                    <text class="sold-total-text">15459</text>
+                    <text>人购买</text>
+                </view>
+                <view class="title-mid">
+                    <text>市场价：</text>
+                    <text style="text-decoration:line-through">￥1980 </text>
+                    <text style="display: block">￥198 (1折)</text>
+                </view>
+                <view class="title-bottom">
+                    <text class="order-btn-top" bindtap="scrollToOrderNow">立即抢购</text>
+                </view>
+            </view>
+        </view>
         <block wx:for="{{images}}" wx:key="image">
-            <image data-id="{{item}}" style="{{imageStyleData[item]}}" bindload="imageLoad" src="{{item}}"/>
+            <image data-id="{{item}}" data-index="{{index}}" style="{{imageStyleData[item]}}" bindload="imageLoad" src="{{item}}" />
         </block>
-    </view>
+        <view id="comment" class="comments">
+            <view class="head-title">
+                <image class="arrow-down-icon" src="../../image/arrow-down.png" />
+                <text class="head-title-text">用户评价</text>
+            </view>
+            <block wx:for="{{comments}}" wx:key="cmt">
+                <view class="comment-wrapper">
+                    <view class="comment-user">
+                        <text style="float: left">{{item.user}}</text>
+                        <text style="float: right">{{item.date}}</text>
+                    </view>
+                    <view class="comment-content">
+                        {{item.content}}
+                    </view>
+                    <view class="comment-type">
+                        {{item.type}}
+                    </view>
+                </view>
+            </block>
+        </view>
+        <view id="order-now" class="order-now">
+            <view class="order-now-title">立即抢购</view>
+            <form bindsubmit="formSubmit" bindreset="formReset">
+                <view class="form-item">
+                    <view class="form-label">
+                        <text class="star" style="left: 10px">*</text>
+                        <text>选择产品</text>
+                    </view>
+                    <view class="form-value">
+                        <radio-group bindchange="radioChange">
+                            <label class="radio">
+                                <radio value="轻奢印花单肩手提包" checked/> 轻奢印花单肩手提包
+                            </label>
+                        </radio-group>
+                    </view>
+                </view>
+
+                <view class="form-item">
+                    <view class="form-label">
+                        <text class="star" style="left: 10px">*</text>
+                        <text>选择颜色</text>
+                    </view>
+                    <view class="form-value">
+                        <radio-group bindchange="radioChange">
+                            <label class="radio" wx:for="{{product.product_color}}" wx:key="color">
+                                <radio value="{{item.name}}" checked="{{item.checked}}"/> {{item.value}}
+                            </label>
+                        </radio-group>
+                    </view>
+                </view>
+
+                <view class="form-item">
+                    <view class="form-label">
+                        <text class="star" style="left: 38px">*</text>
+                        <text>数量</text>
+                    </view>
+                    <view class="form-value" >
+                        <input type="number" value="1" disabled/>
+                    </view>
+                </view>
+
+                <view class="form-item">
+                    <view class="form-label">
+                        <text class="star" style="left: 10px">*</text>
+                        <text>您的姓名</text>
+                    </view>
+                    <view class="form-value" >
+                        <input type="text" class="default-input" />
+                    </view>
+                </view>
+
+                <view class="form-item">
+                    <view class="form-label">
+                        <text class="star" style="left: 10px">*</text>
+                        <text>手机号码</text>
+                    </view>
+                    <view class="form-value" >
+                        <input type="text" class="default-input" />
+                    </view>
+                </view>
+
+                <view class="form-item">
+                    <view class="form-label" style="height: auto">
+                        <text class="star" style="left: 10px">*</text>
+                        <text>所在地区</text>
+                    </view>
+                    <view class="form-value" style="height: auto">
+                        <template is="addressPicker" data="{{ ...city }}"/>
+                    </view>
+                </view>
+
+                <view class="form-item">
+                    <view class="form-label">
+                        <text class="star" style="left: 10px">*</text>
+                        <text>详细地址</text>
+                    </view>
+                    <view class="form-value" >
+                        <input type="text" placeholder="必须填写详细地址 : 例如XX街道XX号" class="default-input" />
+                    </view>
+                </view>
+
+                <view class="form-item">
+                    <view class="form-label">
+                        <text class="star" style="left: 10px">*</text>
+                        <text>支付金额</text>
+                    </view>
+                    <view class="form-value" >
+                        <input type="number" value="198" disabled style="text-align: center; width: 24px;padding: 0 4px"/>
+                        <text>元</text>
+                    </view>
+                </view>
+
+                <view class="form-item">
+                    <view class="form-label">
+                        <text class="star" style="left: 10px">*</text>
+                        <text>付款方式</text>
+                    </view>
+                    <view class="form-value">
+                        <radio-group bindchange="radioChange">
+                            <label class="radio">
+                                <radio value="paymentA" checked/>
+                                <image src="../../image/hdfk.gif" class="payment-icon"></image>
+                            </label>
+                        </radio-group>
+                    </view>
+                </view>
+
+                <view class="form-item">
+                    <view class="form-label" style="height: auto">
+                        <text class="star" style="left: 42px">*</text>
+                        <text style="padding-left: 28px">留言</text>
+                    </view>
+                    <view class="form-value" style="height: auto">
+                        <textarea class="order-remark-textarea" auto-height />
+                    </view>
+                </view>
+
+                <view class="order-submit clear">
+                    <text class="order-submit-btn">立即提交订单</text>
+                </view>
+
+                <view class="order-final">
+                    <text class="order-final-text">温馨提示：尊敬的客户，您好！本次活动属于</text>
+                    <text class="order-final-text">品牌特惠限量促销，因只剩最后100套，所以每</text>
+                    <text class="order-final-text">个用户仅限购买一个，感谢您的理解！</text>
+                </view>
+
+            </form>
+            <include src="../../component/marquee/marquee.wxml" />
+
+            <view class="copyright">
+                <text>广州XXX网络科技有限公司</text>
+            </view>
+            <view class="br"></view>
+        </view>
+    </scroll-view>
     <view class="bottom">
         <view class="counter">
-
+            <view class="counter-left">
+                <view class="promotion-timer">
+                    <image src="../../image/timer.png" class="timer-icon"/>
+                    <text>还有</text>
+                    <text class="time-left-text" id="countdown">{{countDownText}}</text>
+                    <text>活动结束</text>
+                </view>
+                <view class="promotion-status">
+                    <text>已有</text>
+                    <text class="sold-total-text">1548</text>
+                    <text>人购买</text>
+                </view>
+            </view>
+            <view class="counter-right">
+                <view class="order-btn">
+                    <text bindtap="scrollToOrderNow">立即抢购</text>
+                </view>
+            </view>
         </view>
         <view class="navigator">
-
+            <view class="navigator-item" bindtap="scrollToTop">首页</view>
+            <view class="navigator-item" bindtap="contactUs">电话咨询</view>
+            <view class="navigator-item" bindtap="scrollToComment">用户评价</view>
+            <view class="navigator-item" bindtap="scrollToQuery">快递查询</view>
         </view>
     </view>
 </view>

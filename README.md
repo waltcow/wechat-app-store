@@ -1,4 +1,4 @@
-## webApp-store
+## wechat-app-store
 
 微信小程序 
 
