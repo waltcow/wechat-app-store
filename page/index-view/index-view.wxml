@@ -20,7 +20,7 @@
             </view>
         </view>
         <block wx:for="{{images}}" wx:key="image">
-            <image data-id="{{item}}" data-index="{{index}}" style="{{imageStyleData[item]}}" bindload="imageLoad" src="{{item}}" />
+            <image mode="widthFix" style="width: 100%;display: block" src="{{item}}" />
         </block>
         <view id="comment" class="comments">
             <view class="head-title">
